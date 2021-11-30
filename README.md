@@ -46,7 +46,7 @@ To evaluate NeuInfer in the test set:
 
 File `eval_bi-n.py` provides more detailed results on binary and n-ary categories. It is used in the same way as `eval.py`.
 
-Note that, it takes a lot of time to evaluate NeuInfer, since we need to compute a score via NeuInfer for each candidate (each element in the set of relations and attributes/entities and attribute values). To speed up the evaluation process, `eval.py` and `eval_bi-n.py` are implementated in a multi-process manner.
+Note that, it takes a lot of time to evaluate NeuInfer, since we need to compute a score via NeuInfer for each candidate (each element in the set of relations and attributes/entities and attribute values). To speed up the evaluation process, `eval.py` and `eval_bi-n.py` are implemented in a multi-process manner.
 
 ## Citation
 If you found this codebase or our work useful please cite:
